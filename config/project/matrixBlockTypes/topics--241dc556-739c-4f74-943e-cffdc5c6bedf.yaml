@@ -1,0 +1,50 @@
+field: ec51249a-146d-4053-93ea-513e777f4088 # Post Content
+fieldLayouts:
+  58f67f54-c1fd-4829-97e4-3398e2f41f3b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3d618cf9-ee5a-418f-a9ff-d97d54f1eeb3 # Topics
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ca790c5f-f396-413a-8209-32259edba2e0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 59bc72e7-82c1-4680-a488-93d4685f9c04
+        userCondition: null
+fields:
+  3d618cf9-ee5a-418f-a9ff-d97d54f1eeb3: # Topics
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: topics
+    instructions: null
+    name: Topics
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      selectionLabel: null
+      showSiteMenu: true
+      source: 'group:d1c16aec-e3d2-4254-b4cf-cf790987d08a' # Topics
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Categories
+handle: topics
+name: Topics
+sortOrder: 4

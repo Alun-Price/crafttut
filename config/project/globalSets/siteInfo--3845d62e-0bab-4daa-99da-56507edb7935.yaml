@@ -1,0 +1,24 @@
+fieldLayouts:
+  c3906375-cf94-4795-a9e1-1529b115f14d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 63b5ef18-f741-4497-9087-252204618184 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9183488d-203e-4b91-9d9f-66f48d988f59
+            userCondition: null
+            warning: null
+            width: 100
+        name: Settings
+        uid: 3f79a35c-3404-4a6d-bdc8-0621ddf6fc90
+        userCondition: null
+handle: siteInfo
+name: Site_Info
+sortOrder: 2

@@ -1,0 +1,19 @@
+columnSuffix: fgitqyuw
+contentColumnType: text
+fieldGroup: 7797c372-16d8-41e4-88af-cc6bc199d7bd # Global
+handle: description
+instructions: null
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

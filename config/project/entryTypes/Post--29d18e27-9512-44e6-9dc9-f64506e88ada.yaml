@@ -1,0 +1,110 @@
+fieldLayouts:
+  ac42162e-67b5-4518-854c-d4f3c6a37acb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            heading: ''
+            type: craft\fieldlayoutelements\Heading
+            uid: 42ac5173-647f-49de-8cfc-a0eaeeb28fbe
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 8a124a6a-4dd7-4283-a260-e81337eda812 # Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 11339322-3cc2-4ddd-9e51-f69918079d3d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6878ef3d-0e9e-4bbc-ba8a-4a24a47366b6 # Feature Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4255b446-9d22-417b-8634-9d904180a77e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d5595405-3f26-43e7-9ce0-38a1acd96690 # Post Categories
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e749366f-63de-4c6e-91c5-01c2ee27ecaa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 247f322b-618e-48d7-b423-ba638e867def
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: c1a95b95-aace-4b80-8919-d4173fdaf9fd
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: ec51249a-146d-4053-93ea-513e777f4088 # Post Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ec31c31-2a95-4da3-95f9-2f4fba5d5bd6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: fdbd3d06-3431-4679-9748-5f91f7e1bc8f
+            userCondition: null
+        name: Content
+        uid: c85e30e9-538c-495d-a999-d842af12c8b0
+        userCondition: null
+handle: Post
+hasTitleField: true
+name: Post
+section: 586e12f0-4b0e-4142-b9cc-f11ea313aa6b # Blog
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

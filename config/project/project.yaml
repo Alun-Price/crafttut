@@ -1,0 +1,74 @@
+dateModified: 1701317430
+elementSources:
+  craft\elements\Category:
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'group:d1c16aec-e3d2-4254-b4cf-cf790987d08a' # Topics
+      tableAttributes:
+        - link
+      type: native
+email:
+  fromEmail: alunprice089@gmail.com
+  fromName: crafttut
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
+meta:
+  __names__:
+    3d618cf9-ee5a-418f-a9ff-d97d54f1eeb3: Topics # Topics
+    3dabc09d-e5f5-417b-9014-87228f4e0625: Text # Text
+    04a16e93-e7d3-45fb-b856-6cccc813b684: crafttut # crafttut
+    5bced222-ef51-445a-91a1-74718a47fe71: Image # Image
+    7ae49358-bfe1-4a6d-9022-c4ef3ff2796c: crafttut # crafttut
+    8a124a6a-4dd7-4283-a260-e81337eda812: Summary # Summary
+    9f23020c-17f6-4a60-8605-e12adfb1df22: About # About
+    16bb9a47-c2c4-4578-8477-02c491c12e7a: Reusable # Reusable
+    21d1b325-51ac-40a6-91c7-f557804a14e5: Blog # Blog
+    25bbd7e7-973e-4c44-9a28-16e16127a52d: Image # Image
+    29d18e27-9512-44e6-9dc9-f64506e88ada: Post # Post
+    31ef0848-af93-49f6-aaaf-26763c0315f2: About # About
+    37ac4aaf-6973-4888-ae6a-05cdae34577e: Common # Common
+    63b5ef18-f741-4497-9087-252204618184: Description # Description
+    241dc556-739c-4f74-943e-cffdc5c6bedf: Topics # Topics
+    586e12f0-4b0e-4142-b9cc-f11ea313aa6b: Blog # Blog
+    3845d62e-0bab-4daa-99da-56507edb7935: Site_Info # Site_Info
+    4443b5d1-fd25-465a-8695-0943247079f1: Images # Images
+    6878ef3d-0e9e-4bbc-ba8a-4a24a47366b6: 'Feature Image' # Feature Image
+    7096f08a-30cb-46fe-a2a2-945475b1c804: Text # Text
+    7797c372-16d8-41e4-88af-cc6bc199d7bd: Global # Global
+    aa3ab9b1-cc12-4f5a-b1f4-44b741480387: Simple # Simple
+    c0c14de0-37aa-4843-b82d-b2b1ec82fb8a: Quote # Quote
+    c4b8b86b-b6ff-4483-83ac-1703b5f671d3: 'Profile Photo' # Profile Photo
+    cb5f844a-d503-4c53-9b6b-44b0db52dfc7: Bio # Bio
+    d1c16aec-e3d2-4254-b4cf-cf790987d08a: Topics # Topics
+    d5595405-3f26-43e7-9ce0-38a1acd96690: 'Post Categories' # Post Categories
+    e8c5dff1-b29d-475e-8b06-ba3ecc13e423: Quote # Quote
+    ead16901-7a14-4831-b081-fe1fb8c245f0: Thumbnail # Thumbnail
+    ec51249a-146d-4053-93ea-513e777f4088: 'Post Content' # Post Content
+    f6b8f070-7ba1-4ab2-aadc-c2c0dcd5437c: About # About
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: crafttut
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

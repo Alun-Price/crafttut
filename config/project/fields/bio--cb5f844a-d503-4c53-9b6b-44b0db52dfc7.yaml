@@ -1,0 +1,19 @@
+columnSuffix: kdflwzbb
+contentColumnType: text
+fieldGroup: 9f23020c-17f6-4a60-8605-e12adfb1df22 # About
+handle: bio
+instructions: null
+name: Bio
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 8
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
